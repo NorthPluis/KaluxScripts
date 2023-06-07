@@ -117,7 +117,8 @@ end
 
 -- Connect the button click events (you can add your desired functionality)
 teleportsButton.MouseButton1Click:Connect(function()
-    print("Teleports button clicked!")
+--Teleport Button
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NorthPluis/KaluxScripts/main/KalsTeleports%20v0.2.lua"))()
 end)
 
 walkJumpButton.MouseButton1Click:Connect(function()
